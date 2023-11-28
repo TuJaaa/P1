@@ -1,0 +1,16 @@
+------------------------------------ v0.01
+
+- dodanie kopii pliku egzaminu do numeru 5.
+- użycie metody clean code do pliku 'egzamin1'
+
+------------------------------------ v0.02
+
+- użycie metody clean code do pliku 'egzamin2'
+
+------------------------------------ v0.03
+
+- użycie metody clean code do pliku 'egzamin3'
+
+------------------------------------ v0.04
+
+- użycie metody clean code do pliku 'egzamin4'
