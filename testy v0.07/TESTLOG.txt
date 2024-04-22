@@ -1,0 +1,2 @@
+-------------------------20/02/2024
+Przeprowadzono test manualny programu który miał za zadanie sprawdzić działalność interakcji użytkownika z programem.

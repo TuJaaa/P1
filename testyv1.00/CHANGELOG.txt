@@ -1,0 +1,48 @@
+------------------------------------ v0.01
+
+- dodanie kopii pliku egzaminu do numeru 5.
+- użycie metody clean code do pliku 'egzamin1'
+
+------------------------------------ v0.02
+
+- użycie metody clean code do pliku 'egzamin2'
+
+------------------------------------ v0.03
+
+- użycie metody clean code do pliku 'egzamin3'
+
+------------------------------------ v0.04
+
+- użycie metody clean code do pliku 'egzamin4'
+
+------------------------------------ v0.05
+
+- użycie metody clean code do pliku 'egzamin5'
+
+------------------------------------ v0.06
+
+- dodanie przycisku "ZALOGUJ SIĘ" który będzie słóżył do przekierowania na stronę z logowaniem lub rejestracją.
+
+- dodanie drugiego testu w liście "TESTY"
+
+------------------------------------ v0.07
+
+- dodanie działanie przycisku zaloguj się
+
+- dodanie strony do logowania się i rejestracji
+
+- dodanie nowych testów
+
+------------------------------------ v1.00
+
+- Dodanie funkcjonalności do logowania i rejestracji
+
+- Dodanie panelu konta z którego ma się dostęp do wszystkich testów które się zrobiło i zapisało
+
+- Dodano zapisywanie testów
+
+- Ukończono 4 testy
+
+- Dodanie możliwości wylogowania się z konta po zalogowaniu się
+
+- Przesunięcie robienia testów za wymóg bycia zalogowanym

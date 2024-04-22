@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TESTY</title>
+    <link href="css.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+    <script>
+
+        var points = 0;
+
+        function klik1(pOK) {
+            document.getElementById('pyt1').style.background = 'red';
+                document.getElementById('pyt2').style.background = 'red';
+                document.getElementById('pyt3').style.background = 'red';
+                document.getElementById('pyt4').style.background = 'green';
+                if(pOK == 'OK'){
+                    document.getElementById("fizhid").value++;
+                }
+                document.getElementById('pyt1').disabled = true;
+                document.getElementById('pyt2').disabled = true;
+                document.getElementById('pyt3').disabled = true;
+                document.getElementById('pyt4').disabled = true;
+        }
+
+        function klik2(pOK) {
+            document.getElementById('pyt21').style.background = 'red';
+                document.getElementById('pyt22').style.background = 'green';
+                document.getElementById('pyt23').style.background = 'red';
+                document.getElementById('pyt24').style.background = 'red';
+                if(pOK == 'OK'){
+                    document.getElementById("fizhid").value++;
+                }
+                document.getElementById('pyt21').disabled = true;
+                document.getElementById('pyt22').disabled = true;
+                document.getElementById('pyt23').disabled = true;
+                document.getElementById('pyt24').disabled = true;
+        }
+
+        function klik3(pOK) {
+            document.getElementById('pyt31').style.background = 'red';
+                document.getElementById('pyt32').style.background = 'red';
+                document.getElementById('pyt33').style.background = 'green';
+                document.getElementById('pyt34').style.background = 'red';
+                if(pOK == 'OK'){
+                    document.getElementById("fizhid").value++;
+                }
+                document.getElementById('pyt31').disabled = true;
+                document.getElementById('pyt32').disabled = true;
+                document.getElementById('pyt33').disabled = true;
+                document.getElementById('pyt34').disabled = true;
+        }
+
+        function klik4(pOK) {
+            document.getElementById('pyt41').style.background = 'red';
+                document.getElementById('pyt42').style.background = 'green';
+                document.getElementById('pyt43').style.background = 'red';
+                document.getElementById('pyt44').style.background = 'red';
+                if(pOK == 'OK'){
+                    document.getElementById("fizhid").value++;
+                }
+                document.getElementById('pyt41').disabled = true;
+                document.getElementById('pyt42').disabled = true;
+                document.getElementById('pyt43').disabled = true;
+                document.getElementById('pyt44').disabled = true;
+        }
+
+        function klik5(pOK) {
+            document.getElementById('pyt51').style.background = 'red';
+                document.getElementById('pyt52').style.background = 'red';
+                document.getElementById('pyt53').style.background = 'red';
+                document.getElementById('pyt54').style.background = 'green';
+                if(pOK == 'OK'){
+                    document.getElementById("fizhid").value++;
+                }
+                document.getElementById('pyt51').disabled = true;
+                document.getElementById('pyt52').disabled = true;
+                document.getElementById('pyt53').disabled = true;
+                document.getElementById('pyt54').disabled = true;
+        }
+
+    </script>
+
+<nav class="menu">
+    <a href="index.html">STRONA GŁÓWNA</a>
+   <div class="dropdown">
+    <a href="#">TESTY ▼</a>
+    <ul>
+        <li><a href="egzamin1.html">HISTORIA</a></li>
+        <li><a href="egzamin2.html">MATEMATYKA</a></li>
+        <li><a href="egzamin3.html">BIOLOGIA</a></li>
+        <li><a href="egzamin4.html">FIZYKA</a></li>
+        <li><a href="egzamin5.html">CHEMIA</a></li>
+    </ul>
+    </div>
+    <div class="dropdown">
+        <a href="#">MOJE KONTO ▼</a>
+        <ul>
+            <li><a href="konto.php">MOJE KONTO</a></li>
+            <li><a href="index.html">WYLOGUJ SIĘ</a></li>
+        </ul>
+        </div>
+</nav>
+
+    <div id="left"></div>
+    <div id="content">
+        <br><br><br><br><br><br><br><br><br><br><br><br>
+
+        Jakie zjawisko odpowiada za to, że ciało porusza się z prędkością stałą?: <br><br>
+        <button id="pyt1" type="button"
+        onclick="klik1()">
+        Prawo ciążenia</button>
+
+        <button id="pyt2" type="button"
+        onclick="klik1()">
+        Druga zasada dynamiki Newtona</button>
+
+        <button id="pyt3" type="button"
+        onclick="klik1()">
+        Pierwsza zasada dynamiki Newtona</button>
+
+        <button id="pyt4" type="button"
+        onclick="klik1()">
+        Zasada inercji </button>
+
+        <br><br><br><br>
+
+        Co to jest energia kinetyczna?: <br><br>
+        <button id="pyt21" type="button"
+        onclick="klik2()">
+        Energia związana z pozycją obiektu</button>
+
+        <button id="pyt22" type="button"
+        onclick="klik2()">
+        Energia związana z ruchem obiektu</button>
+
+        <button id="pyt23" type="button"
+        onclick="klik2()">
+        Energia związana z siłą grawitacji</button>
+
+        <button id="pyt24" type="button"
+        onclick="klik2()">
+        Energia związana z temperaturą obiektu</button>
+
+        <br><br><br><br>
+
+        Jak nazywa się proces przekazywania ciepła przez bezpośredni kontakt między dwoma ciałami?: <br><br>
+        <button id="pyt31" type="button"
+        onclick="klik3()">
+        Konwekcja</button>
+
+        <button id="pyt32" type="button"
+        onclick="klik3()">
+        Radiacja</button>
+
+        <button id="pyt33" type="button"
+        onclick="klik3()">
+        Kondukcja</button>
+
+        <button id="pyt34" type="button"
+        onclick="klik3()">
+        Parowanie</button>
+
+        <br><br><br><br>
+
+        Co to jest pierwsza zasada termodynamiki?: <br><br>
+        <button id="pyt41" type="button"
+        onclick="klik4()">
+        Suma masy w układzie pozostaje stała</button>
+
+        <button id="pyt42" type="button"
+        onclick="klik4()">
+        Energia nie może być stworzona ani zniszczona, lecz może być przekształcona z jednej formy do drugiej</button>
+
+        <button id="pyt43" type="button"
+        onclick="klik4()">
+        Entropia układu zawsze wzrasta</button>
+
+        <button id="pyt44" type="button"
+        onclick="klik4()">
+        Żadne ciało nie może osiągnąć temperatury zera bez końcowego oddzielenia się od innych ciał</button>
+
+        <br><br><br><br>
+
+        Jak nazywa się siła przeciwna ruchowi ciała, która działa na nie w wyniku tarcia?: <br><br>
+        <button id="pyt51" type="button"
+        onclick="klik5()">
+        Siła grawitacji</button>
+
+        <button id="pyt52" type="button"
+        onclick="klik5()">
+        Siła wypadkowa</button>
+
+        <button id="pyt53" type="button"
+        onclick="klik5()">
+        Siła wewnętrzna</button>
+
+        <button id="pyt54" type="button"
+        onclick="klik5()">
+        Siła tarcia</button>
+        <br><br><br>
+
+        <form action="fiz.php" method="post">
+
+            <input type="hidden" id="fizhid" name="fizhid" value="0">
+            <input type="hidden" name="fizname" value="FIZYKA">
+            <input type="submit" value="WYŚLIJ!">
+
+        </form>
+
+    </div>
+    <div id="ad"></div>
+
+</body>
+</html>
